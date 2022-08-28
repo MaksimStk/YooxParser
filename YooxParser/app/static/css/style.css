@@ -1,0 +1,64 @@
+
+body {
+    background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.g-flex {
+    margin-bottom: 50%
+}
+
+.container {
+  max-width: 80%;
+  max-height: 110%
+}
+
+.pricing-header {
+  max-width: 700px;
+  margin-bottom: -5%
+}
+
+.btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+}
+
+.page-item.active .page-link {
+    columns: #fff;
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+}
+.pagination > li > a {
+    background-color: #fff;
+    color: #6c757d
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > span > a:focus,
+.pagination > span > a:hover {
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #6c757d;
+    box-shadow: none
+}
+
+.dataTables_paginate {
+    margin-top: -35px !important;
+}
+
+.dataTables_length {
+    float: right !important;
+    margin-top: 10px !important;
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+.dt-buttons {
+    margin-bottom: 10px !important;
+}
+
+thead input {
+    width: 100%;
+    text-align: center;
+}
